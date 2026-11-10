@@ -1,4 +1,4 @@
-# globalgov-io
+# GlobalGov
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-globalgov-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://globalgov.io/
+GlobalGov provides a B2B platform delivering government procurement intelligence. It helps businesses discover open government contracts, understand who is buying, contract values, deadlines, and links to official notices, enabling them to bid effectively and stay ahead of opportunities.
+
+**Areas:** Government · Procurement · B2B · Intelligence · Platform
+
+## GlobalGov on APIs.io
+
+Everything profiled for GlobalGov is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/globalgov-io/](https://apis.io/providers/globalgov-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [GlobalGov Agencies API](https://apis.io/apis/globalgov-io/globalgov-io-agencies-api/) — The Agencies API from GlobalGov — 2 operation(s) for agencies.
+- [GlobalGov Awards API](https://apis.io/apis/globalgov-io/globalgov-io-awards-api/) — The Awards API from GlobalGov — 2 operation(s) for awards.
+- [GlobalGov Meta API](https://apis.io/apis/globalgov-io/globalgov-io-meta-api/) — The Meta API from GlobalGov — 1 operation(s) for meta.
+- [GlobalGov Solicitations API](https://apis.io/apis/globalgov-io/globalgov-io-solicitations-api/) — The Solicitations API from GlobalGov — 2 operation(s) for solicitations.
+- [GlobalGov Vendors API](https://apis.io/apis/globalgov-io/globalgov-io-vendors-api/) — The Vendors API from GlobalGov — 2 operation(s) for vendors.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [GlobalGov Agentic Access](https://apis.io/agentic-access/globalgov-io/globalgov-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Agency](https://apis.io/schemas/globalgov-io/globalgov-io-agency/)
+- [Award](https://apis.io/schemas/globalgov-io/globalgov-io-award/)
+- [Page[Agency]](https://apis.io/schemas/globalgov-io/globalgov-io-page-agency/)
+- [Page[Solicitation]](https://apis.io/schemas/globalgov-io/globalgov-io-page-solicitation/)
+- [Solicitation](https://apis.io/schemas/globalgov-io/globalgov-io-solicitation/)
+- [Vendor](https://apis.io/schemas/globalgov-io/globalgov-io-vendor/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Globalgov Io Context](https://apis.io/jsonld/globalgov-io/globalgov-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [GlobalGov API Rules](https://apis.io/rules/globalgov-io/globalgov-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [GlobalGov Authentication](https://apis.io/security/globalgov-io/globalgov-io-authentication/)
+- [GlobalGov Domain Security](https://apis.io/security/globalgov-io/globalgov-io-domain-security/)
+- [GlobalGov Vulnerability Disclosure](https://apis.io/security/globalgov-io/globalgov-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [GlobalGov Plans Pricing](https://apis.io/plans/globalgov-io/globalgov-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://globalgov.io/)
+- [Documentation](https://globalgov.io/api/public/v1/docs)
+- [Pricing](https://globalgov.io/pricing)
+- [Sign up](https://globalgov.io/register)
+- [Blog](https://globalgov.io/blog/)
+- [Security](https://globalgov.io/security)
+- [Terms of service](https://globalgov.io/terms)
+- [Privacy policy](https://globalgov.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 56.6** — strong · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 73.2 |
+
+**Agent readiness 52.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/globalgov-io/](https://apis.io/providers/globalgov-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GlobalGov: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/globalgov-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
